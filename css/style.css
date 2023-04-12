@@ -1,0 +1,40 @@
+@font-face {
+    font-family:'Rostov';
+    src: url('../fonts/Rostov.ttf');
+}
+
+body{
+    margin: 0;
+    margin-left: 550px;
+    font-family:'Rostov';
+}
+h1{
+    font-size: 90px;
+  
+}
+
+.zag{
+    width: 1000px;
+}
+
+h2{
+    font-size: 60px;
+  
+}
+@media screen and (max-width: 620px){
+
+body{
+    font-size: 14px;
+    margin: 0;
+    margin-left: 40px;
+    overflow-x: hidden;
+}
+h1{
+    font-size: 60px;
+    max-width: 420px;
+}
+h2{
+    font-size: 40px;
+    max-width: 420px;
+}
+}
